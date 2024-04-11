@@ -1,0 +1,46 @@
+.movies-item {
+    flex: 0 0 auto;
+    position: relative;
+    width: 31.25rem;
+    transition: 0.5s ease;
+}
+
+.movies-item img {
+    width: 31.25rem;
+    height: 46.875rem;
+}
+
+.movies-item iframe {
+    pointer-events: none;
+}
+
+.movies-item a{
+    text-decoration: none;
+    color: black;
+}
+
+.movies-item:hover {
+    scale: 1.05;
+    z-index: 2;
+}
+
+.movies-item .movie-info{
+    display: grid;
+    gap: 0.5rem;
+}
+
+.badge-list {
+    position: absolute;
+    top: 0.5rem;
+    right: 0.5rem;
+    display: flex;
+    gap: 0.5rem;
+}
+
+.badge {
+    padding: 0.5rem;
+    background-color: #000;
+    color: #fff;
+    border-radius: 0.5rem;
+}
+
